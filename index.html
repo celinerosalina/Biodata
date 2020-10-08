@@ -11,32 +11,36 @@
         font-family: Arial, Helvetica, sans-serif;
         color: #4caf50;
       }
+      p.double {
+        border-style: double;
+        border-color: #4caf50;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: center;
+      }
     </style>
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
     <h1>Hi! Welcome to my Blog</h1>
+
+    <div>
+      <ul>
+        <li>Name: celine</li>
+        <li>Age: 24</li>
+        <li>Education: Impact Byte</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="double">Check out my Gallery!</p>
+      <div class="parentgallery">
+        <img src="celine-pic.jpg" alt="a pic of celine" id="gambar-celine" />
+      </div>
+    </div>
+
+    <div>
+      <h2 style="text-align: center">Bye!</h2>
+    </div>
   </body>
-  <link rel="stylesheet" type="text/css" href="index.css" />
-  <div>
-    <ul>
-      <li>Name: celine</li>
-      <li>Age: 24</li>
-      <li>Education: Impact Byte</li>
-    </ul>
-  </div>
-  <style>
-    p.double {
-      border-style: double;
-      border-color: #4caf50;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      text-align: center;
-    }
-  </style>
-  <div>
-  <p class="double">Check out my Gallery!</p>
-  <div class="parentgallery">
-    <img src="../week2-day2/assets/celine-pic.jpg" alt="a pic of celine"
-    id="gambar-celine"
-  </div>
 </html>
