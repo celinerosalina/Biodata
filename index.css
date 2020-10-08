@@ -1,0 +1,14 @@
+p.double {
+  border-style: double;
+}
+.parentgallery {
+  text-align: center;
+}
+#gambar-celine {
+  width: 300px;
+}
+li {
+  color: #4caf50;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
